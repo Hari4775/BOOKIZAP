@@ -1,0 +1,9 @@
+.whatsapp-logo{
+  position: fixed;
+  top: 80%;
+  right: 3%;
+  transform: translateY(-50%);
+  z-index: 1000; /* Ensure it appears above other elements */
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+}
