@@ -6,35 +6,44 @@ const NewsLatterBox = () => {
   const { theme } = useTheme();
 
   return (
-    <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
-        Subscribe to receive future updates
+    <div className="relative z-10 rounded-sm bg-white  shadow-three dark:bg-gray-dark p-8 ">
+      <h3 className="md:block hidden mb-4 md:text-2xl text-xl font-bold leading-tight text-black dark:text-white">
+      Have queries? Let’s discuss
       </h3>
-      <p className="mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
-        Lorem ipsum dolor sited Sed ullam corper consectur adipiscing Mae ornare
-        massa quis lectus.
+      <p className="md:block hidden mb-11 border-b border-body-color border-opacity-25 pb-11 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25">
+      Our support team will get back to you ASAP
       </p>
       <div>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your name"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Enter your email"
-          className="border-stroke mb-4 w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
-        />
-        <input
-          type="submit"
-          value="Subscribe"
-          className="mb-5 flex w-full cursor-pointer items-center justify-center rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-        />
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          No spam guaranteed, So please don’t send any spam mail.
-        </p>
+        <div className="flex items-center  mb-5">
+           <a href=' https://wa.me/916282396562 '>
+             <img  src="/images/chatbot/whatsappblue.png" className=' w-5 md:w-10 ' ></img>
+             </a>
+              <a href=' https://wa.me/916282396562 my-auto'>
+                 <h3 className="hover:text-blue-600 ml-3 my-auto  md:text-2xl text-xl leading-tight text-black dark:text-white">Whatsapp</h3>
+               </a>
+        </div>
+
+        <div className="flex mb-5  items-center  ">
+           <a href="mailto:bookizap@gmail.com">
+              <img  src="/images/chatbot/email.png" className='md:w-14 w-6  text-black dark:text-white' ></img>
+            </a>
+            <a href="mailto:bookizap@gmail.com">         
+              <h3 className="hover:text-blue-600  ml-3 my-auto  md:text-2xl text-xs  leading-tight text-black dark:text-white">bookizap@gmail.com</h3>
+            </a>
+        </div>
+
+        <div className="flex mb-5  items-center  ">
+          <img  src="/images/chatbot/phone.png" className=' w-5 md:w-10  text-black dark:text-white' ></img>
+          <h3 className=" hover:text-blue-600 ml-3 my-auto  md:text-2xl text-xl  leading-tight text-black dark:text-white">+91 6282 396 562</h3>
+        </div>
+      
+        <div className="flex  items-center  mb-3 ">
+          <img  src="/images/chatbot/phone.png" className=' w-5 md:w-10  text-black dark:text-white' ></img>
+          <h3 className=" hover:text-blue-600 ml-3 my-auto text-xl md:text-2xl  leading-tight text-black dark:text-white">+91 9344963795</h3>
+        </div>
+      
+        
+       
       </div>
 
       <div>

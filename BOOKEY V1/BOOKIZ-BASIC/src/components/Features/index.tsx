@@ -6,14 +6,15 @@ const Features = () => {
   return (
     <>
       <section id="features" className=" md:py-20 py-3">
-        <div className="container pb-2 md:pb-20 ">
+        <div className="container py-2 md:pb-20 ">
           <SectionTitle 
             title="Main Features"
             paragraph=""
             center
+            
           />
 
-          <div className="grid grid-cols-3 gap-x-8  md:grid-cols-2 lg:grid-cols-6">
+          <div className=" w-11/12 mx-auto grid grid-cols-3 pt-5  md:grid-cols-6">
             {featuresData.map((feature) => (
               <SingleFeature key={feature.id} feature={feature} />
             ))}

@@ -3,10 +3,10 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Electrician",
+    title: "ELECTRICIANS",
     paragraph:
       ".",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/electrician.jpg",
     author: {
       name: "",
       image: "",
@@ -17,10 +17,10 @@ const blogData: Blog[] = [
   },
   {
     id: 2,
-    title: "Pliumber",
+    title: "PLUMBERS",
     paragraph:
       ".",
-    image: "/images/blog/blog-02.jpg",
+    image: "/images/blog/PLUMBER.jpg",
     author: {
       name: "Musharof Chy",
       image: "/images/blog/author-02.png",
@@ -30,11 +30,27 @@ const blogData: Blog[] = [
     publishDate: "2025",
   },
   {
-    id: 3,
+    id:3 ,
+    title: "AC-SERVICES",
+    paragraph:
+      "",  
+      
+      image: "/images/blog/acservice.jpg",
+    author: {
+      name: "AC-SERVICES",
+      image: "/images/blog/BABYCARING.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["design"],
+    publishDate: "2025",
+  },
+ 
+  {
+    id:7 ,
     title: "Maison",
     paragraph:
       "",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/MAISON.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
@@ -45,12 +61,12 @@ const blogData: Blog[] = [
   },
   {
     id: 4,
-    title: "home",
+    title: "CARPENTOR",
     paragraph:
       "",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/carpentor.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "CARPENTOR",
       image: "/images/blog/author-03.png",
       designation: "Graphic Designer",
     },
@@ -59,10 +75,10 @@ const blogData: Blog[] = [
   },
   {
     id: 5,
-    title: "Caring",
+    title: "HOUSE KEEPING",
     paragraph:
       "",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/HOUSE KEEPING.jpg",
     author: {
       name: "Lethium Deo",
       image: "/images/blog/author-03.png",
@@ -73,13 +89,43 @@ const blogData: Blog[] = [
   },
   {
     id: 6,
-    title: "Welding",
+    title: "BABYCARING",
     paragraph:
       "",
-    image: "/images/blog/blog-03.jpg",
+  image: "/images/blog/BABYCARING.png",
     author: {
-      name: "Lethium Deo",
-      image: "/images/blog/author-03.png",
+      name: "BABYCARING",
+      image: "/images/blog/BABYCARING.png",
+      designation: "Graphic Designer",
+    },
+    tags: ["design"],
+    publishDate: "2025",
+  },
+  {
+    id:8,
+    title: "HOME KITCHEN HELPER",
+    paragraph:
+      "",  
+      
+      image: "/images/blog/kitchen-helper.jpg",
+    author: {
+      name: "HOME KITCHEN HELPER",
+      image: "/images/blog/kitchen-helper.jpg",
+      designation: "Graphic Designer",
+    },
+    tags: ["design"],
+    publishDate: "2025",
+  },
+  {
+    id:8,
+    title: "OUT DOOR CLEANING",
+    paragraph:
+      "",  
+      
+      image: "/images/blog/Outdoor-Cleaning.jpeg",
+    author: {
+      name: "OUT DOOR CLEANING",
+      image: "/images/blog/Outdoor-Cleaning.jpeg",
       designation: "Graphic Designer",
     },
     tags: ["design"],
@@ -87,3 +133,4 @@ const blogData: Blog[] = [
   },
 ];
 export default blogData;
+

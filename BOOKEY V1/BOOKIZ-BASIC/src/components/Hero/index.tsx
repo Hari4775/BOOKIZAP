@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Features from "../Features";
 
 const Hero = () => {
   return (
@@ -11,8 +12,8 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white text-xl sm:leading-tight md:text-5xl md:leading-tight">
-                "Effortless Booking, Anytime!"
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:leading-tight md:text-5xl md:leading-tight">
+                Effortless Booking, Anytime!
                 </h1>
                 <p className="  !leading-relaxed text-body-color dark:text-body-color-dark text-xs md:text-xl">
                 Easily connect with local professionals and book any service on demand. Transparent rates, secure payments, and reliable backups ensure your tasks and events run smoothly—because your time matters.
@@ -35,6 +36,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <Features/>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
